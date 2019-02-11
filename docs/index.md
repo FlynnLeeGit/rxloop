@@ -58,7 +58,7 @@ const counterModel = {
         // map(...),
         // filter(...),
         mapTo({
-          action: 'increment'
+          type: 'increment'
         }),
       );
     }
